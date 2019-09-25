@@ -10,7 +10,8 @@ body {
     box-shadow: black 1px 3px 15px;
     margin    : auto;
     margin-top: 200px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    position: relative;
 }
 
 .datos {
@@ -18,10 +19,13 @@ body {
     box-sizing      : border-box;
     width           : 100%;
     height          : 46px;
-    padding-left    : 15px;
+    padding-left    : 20px;
     margin-bottom   : 15px;
     font-family     : 'Roboto', sans-serif;
+    border          : 2px solid #f2f2f2;
 }
+
+
 
 .boton {
     background    : #4caf50;
@@ -30,3 +34,15 @@ body {
     padding-left  : 0px;
     margin-bottom : 0px
 }
+.boton:hover {
+    background-color: #255428;
+    transition: background 1s ease-in;
+}
+
+.fa-user-circle {
+    position: absolute;
+    left: 48px;
+    top: 60px;
+}
+
+/*Esto es para ver si vos lo ves modificado*/
